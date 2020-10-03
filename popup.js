@@ -2,7 +2,7 @@
 // input, concatenates the user's name to "hello" to greet them
 $(function(){
     $('#name').keyup(function(){
-        $('#greeting').text('Hello' + $('#name').val());
+        $('#greeting').text('Hello ' + $('#name').val());
     })
 
 })
